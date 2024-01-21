@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Plant Rating Calculator</title>
+</head>
+<body>
+    <h1>Plant Rating Calculator</h1>
+    <form action="/calculate_rating" method="post">
+        <label for="plantname">Plant Name:</label>
+        <input type="text" id="plantname" name="plantname" required><br>
+
+        <label for="idealtemp">Ideal Temperature:</label>
+        <input type="text" id="idealtemp" name="idealtemp" required><br>
+
+        <label for="idealhumidity">Ideal Humidity:</label>
+        <input type="text" id="idealhumidity" name="idealhumidity" required><br>
+
+        <label for="idealsunlight">Ideal Sunlight:</label>
+        <input type="text" id="idealsunlight" name="idealsunlight" required><br>
+
+        <button type="submit">Calculate Rating</button>
+    </form>
+</body>
+</html>
